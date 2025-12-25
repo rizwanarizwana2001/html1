@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simple Contact Form</title>
+</head>
+<body>
+    <center>
+    
+    <h1>Contact Form</h1>
+    <form>
+        <table border="1" cellspacing="5" cellpadding="20"  bgcolor="lightgreen">
+            <td>
+        <label for="name"><h2>Name:</h2></label><br>
+        <input type="text" id="name" name="name" required ><br><br>
+
+        <label for="email"><h2>Email:</h2></label><br/>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label><h2>Gender:</h2></label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <label><h2>Skills:</h2></label><br/>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label><br><br>
+
+        <label for="country"><h2>Country:</h2></label><br>
+        <select id="country" name="country">
+            <option value="">--Please choose an option--</option>
+            <option value="usa">United States</option>
+            <option value="india">India</option>
+            <option value="uk">United Kingdom</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <label for="message"><h2>Message:</h2></label><br>
+        <textarea id="message" name="message" rows="5" cols="30" placeholder="Your message here..."></textarea><br><br>
+
+        <input type="submit" value="Submit" bgcolor="golden"></td>
+
+    </form>
+    </center>
+    </table>
+</body>
+</html>

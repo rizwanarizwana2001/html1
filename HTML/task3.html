@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Marks Table & Semantic Layout</title>
+</head>
+<body>
+    <header><center>
+        <h1>School Management System</h1>
+    </header></center>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#students">Students</a></li>
+            <li><a href="#marks">Marks</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Student Mark Sheet</h2>
+        <table border="1" cellspacing="5" cellpadding="30">
+            <thead bgcolor="grey">
+                <tr>
+                    <th rowspan="2">Roll No</th>
+                    <th rowspan="2">Student Name</th>
+                    <th colspan="4">Subjects</th>
+                    <th rowspan="2">Total</th>
+                    <th rowspan="2">Grade</th>
+                </tr>
+                <tr bgcolor="aqua">
+                    <th>Maths</th>
+                    <th>Science</th>
+                    <th>English</th>
+                    <th>Tamil</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr bgcolor="orange">
+                    <td>101</td>
+                    <td>Rajesh</td>
+                    <td>85</td>
+                    <td>90</td>
+                    <td>78</td>
+                    <td>92</td>
+                    <td>445</td>
+                    <td>A</td>
+                </tr>
+                <tr bgcolor="lightblue">
+                    <td>102</td>
+                    <td>Priya</td>
+                    <td>92</td>
+                    <td>88</td>
+                    <td>95</td>
+                    <td>87</td>
+                    <td>462</td>
+                    <td>A+</td>
+                </tr>
+                <tr bgcolor="lightgreen">
+                    <td>103</td>
+                    <td>Kumar</td>
+                    <td>76</td>
+                    <td>82</td>
+                    <td>85</td>
+                    <td>79</td>
+                    <td>422</td>
+                    <td>B</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <footer bgcolor="lightblue">
+        <center>
+        <h3>&copy; 2025 School Management System. All rights reserved.</h3>
+    </center>
+    </footer>
+</body>
+</html>
